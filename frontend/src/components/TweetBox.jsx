@@ -22,7 +22,7 @@ function TweetBox() {
           className="placeholder"
           placeholder="What is happening!?"
         />
-        <div className="con2">
+        <div className="options-2">
           <button className="option">
             <FontAwesomeIcon icon={faImage} />
           </button>

@@ -45,6 +45,7 @@ overflow: hidden;
   background-color:  rgb(78, 68, 68);
   opacity: .50;
   transition-duration: 0.3s;
+  cursor: pointer;
 }
 
 .comment{
@@ -55,6 +56,7 @@ overflow: hidden;
 .mid{
   border: 2px solid hwb(0 4% 95%);
   grid-area: mid;
+  height: 670px;
 }
 
 .right-side{
@@ -119,6 +121,8 @@ overflow: hidden;
   opacity: .50;
   border-radius: 30px;
   transition-duration: 0.3s;
+  cursor: pointer;
+
 }
 
 .tw-button{
@@ -136,6 +140,8 @@ overflow: hidden;
   color: white;
   background-color:  rgb(6, 110, 228);
   transition-duration: 0.3s;
+  cursor: pointer;
+
 }
 
 .profile{
@@ -158,6 +164,8 @@ overflow: hidden;
   transition-duration: 0.1s;
   color: white;
   background-color:  rgb(20, 19, 19);
+  cursor: pointer;
+
 }
 
 .pic{
@@ -272,6 +280,8 @@ font-size: 15px;
   transition-duration: 0.3s;
   color: white;
   background-color:  rgb(20, 19, 19);
+  cursor: pointer;
+
 }
 
 .bottom-bar{
@@ -290,6 +300,8 @@ font-size: 15px;
   transition-duration: 0.3s;
   color: #1DA1F2;
   background-color:  rgb(20, 19, 19);
+  cursor: pointer;
+
 
  }
 
@@ -332,6 +344,7 @@ font-size: 15px;
   transition-duration: 0.3s;
   color: white;
   background-color:  rgb(20, 19, 19);
+  cursor: pointer;
  }
 
  .follow-button{
@@ -352,6 +365,7 @@ font-size: 15px;
   color: black;
   background-color:  #ffff;
   border-radius: 24px;
+  cursor: pointer;
  }
 
  .profile-picture{
@@ -393,6 +407,8 @@ a:link{
 a:hover {
   text-decoration: underline;
   color: gray;
+  cursor: pointer;
+
 }
 
 .word{
@@ -426,6 +442,12 @@ a:hover {
   border-style: none;
   margin-top: 17px;
   margin-left: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.options-2{
+  margin-left: 80px;
 }
 
 .push-button{
@@ -445,6 +467,100 @@ a:hover {
   transition-duration: 0.2s;
   color: #ffff;
   background-color:  #009dff;
+  cursor: pointer;
+}
+
+.tweet{
+  border: 1px solid rgb(51, 48, 48);
 
 }
 
+.user-pp{
+  font-size: 50px;
+  margin-top: 5px;
+  margin-left: 10px;
+  border-style: none;
+  color: white;
+  background-color:  transparent;
+  cursor: pointer;
+}
+
+.user{
+  color: white;
+  background-color:  transparent;
+  border-style: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 5px;
+  position: relative;
+  bottom: 22px;
+}
+
+.user:hover{
+  text-decoration: underline;
+  
+}
+
+.username-2{
+  color: gray;
+  background-color:  transparent;
+  border-style: none;
+  cursor: pointer;
+  font-size: 15px;
+  position: relative;
+  bottom: 23px;
+  margin-left: -5px;
+}
+
+.time{
+  color: gray;
+  float: right;
+  position: relative;
+  right: 340px;
+  top: 12px
+}
+
+.more{
+  float: right;
+  color: white;
+  background-color:  transparent;
+  border-style: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right:-5px;
+}
+
+.paragraph{
+  margin-left: 80px;
+  margin-top: -30px;
+}
+
+.bottom-option{
+  color: white;
+  background-color:  transparent;
+  border-style: none;
+  margin-left: 40px;
+  margin-top: -20px;
+  height: 60px;
+}
+
+.icons{
+  color: white;
+  background-color:  transparent;
+  border-style: none;
+  cursor: pointer;
+  margin: 35px;
+  font-size: 15px;
+}
+
+.icons:hover{
+  transition-duration: 0.2s;
+  opacity: .50;
+}
+
+.picture{
+  width: 300px;
+  margin-left: 150px;
+  margin-top: 5px;
+  border-radius: 20px;
+}
