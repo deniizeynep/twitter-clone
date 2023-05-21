@@ -10,19 +10,19 @@ import {
   faRetweet,
 } from "@fortawesome/free-solid-svg-icons";
 
-const ImageTweet = () => {
+const ImageTweet = ({ user, username, date, text }) => {
   return (
     <div className="tweet">
       <button className="user-pp">
         <FontAwesomeIcon icon={faCircleUser} />
       </button>
-      <button className="user">Name</button>
-      <button className="username-2">@user4732</button>
-      <div className="time">32m</div>
+      <button className="user">{user}</button>
+      <button className="username-2">{username}</button>
+      <div className="time">{date}</div>
       <button className="more">
         <FontAwesomeIcon icon={faEllipsis} />
       </button>
-      <div className="paragraph">What a beautiful view!</div>
+      <div className="paragraph">{text}</div>
       <img
         src="https://2.bp.blogspot.com/-XDX1Vg5hYC0/T2w_qp4T_hI/AAAAAAAABcw/EkIEFDpqMnE/s1600/manzara1.jpg"
         alt="pic"

@@ -57,6 +57,8 @@ overflow: hidden;
   border: 2px solid hwb(0 4% 95%);
   grid-area: mid;
   height: 670px;
+  overflow-y: scroll;
+ 
 }
 
 .right-side{
@@ -516,7 +518,7 @@ a:hover {
   color: gray;
   float: right;
   position: relative;
-  right: 340px;
+  right: 320px;
   top: 12px
 }
 

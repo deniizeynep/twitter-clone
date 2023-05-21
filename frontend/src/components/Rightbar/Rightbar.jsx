@@ -8,6 +8,20 @@ import TrendButton from "./TrendButton";
 import FollowButton from "./FollowButton";
 
 function Rightbar() {
+  const [trends, setTrends] = React.useState([
+    {
+      trendTitle: "Trending in Turkey",
+      midText: "Trend Topic",
+      bottomText: "1,5MN Tweet",
+    },
+  ]);
+  const [follows, setFollows] = React.useState([
+    {
+      user: "Name",
+      username: "@user3254",
+    },
+  ]);
+
   return (
     <div className="con">
       <div className="right-side">
@@ -21,64 +35,92 @@ function Rightbar() {
         </div>
         <div className="trends">
           <div className="trend-title">Trends for you</div>
-          <TrendButton
-            TrendTitle="Trending in Turkey"
-            MidText="Trend Topic"
-            BottomText="1,5MN Tweet"
-          />
-          <TrendButton
-            TrendTitle="Trending in Turkey"
-            MidText="Trend Topic"
-            BottomText="1,5MN Tweet"
-          />
-          <TrendButton
-            TrendTitle="Trending in Turkey"
-            MidText="Trend Topic"
-            BottomText="1,5MN Tweet"
-          />
-          <TrendButton
-            TrendTitle="Trending in Turkey"
-            MidText="Trend Topic"
-            BottomText="1,5MN Tweet"
-          />
-          <TrendButton
-            TrendTitle="Trending in Turkey"
-            MidText="Trend Topic"
-            BottomText="1,5MN Tweet"
-          />
-          <TrendButton
-            TrendTitle="Trending in Turkey"
-            MidText="Trend Topic"
-            BottomText="1,5MN Tweet"
-          />
-          <TrendButton
-            TrendTitle="Trending in Turkey"
-            MidText="Trend Topic"
-            BottomText="1,5MN Tweet"
-          />
-          <TrendButton
-            TrendTitle="Trending in Turkey"
-            MidText="Trend Topic"
-            BottomText="1,5MN Tweet"
-          />
-          <TrendButton
-            TrendTitle="Trending in Turkey"
-            MidText="Trend Topic"
-            BottomText="1,5MN Tweet"
-          />
-          <TrendButton
-            TrendTitle="Trending in Turkey"
-            MidText="Trend Topic"
-            BottomText="1,5MN Tweet"
-          />
+          {trends.map((trend) => (
+            <TrendButton
+              trendTitle={trend.trendTitle}
+              midText={trend.midText}
+              bottomText={trend.bottomText}
+            />
+          ))}
+
+          {trends.map((trend) => (
+            <TrendButton
+              trendTitle={trend.trendTitle}
+              midText={trend.midText}
+              bottomText={trend.bottomText}
+            />
+          ))}
+          {trends.map((trend) => (
+            <TrendButton
+              trendTitle={trend.trendTitle}
+              midText={trend.midText}
+              bottomText={trend.bottomText}
+            />
+          ))}
+          {trends.map((trend) => (
+            <TrendButton
+              trendTitle={trend.trendTitle}
+              midText={trend.midText}
+              bottomText={trend.bottomText}
+            />
+          ))}
+          {trends.map((trend) => (
+            <TrendButton
+              trendTitle={trend.trendTitle}
+              midText={trend.midText}
+              bottomText={trend.bottomText}
+            />
+          ))}
+          {trends.map((trend) => (
+            <TrendButton
+              trendTitle={trend.trendTitle}
+              midText={trend.midText}
+              bottomText={trend.bottomText}
+            />
+          ))}
+
+          {trends.map((trend) => (
+            <TrendButton
+              trendTitle={trend.trendTitle}
+              midText={trend.midText}
+              bottomText={trend.bottomText}
+            />
+          ))}
+          {trends.map((trend) => (
+            <TrendButton
+              trendTitle={trend.trendTitle}
+              midText={trend.midText}
+              bottomText={trend.bottomText}
+            />
+          ))}
+          {trends.map((trend) => (
+            <TrendButton
+              trendTitle={trend.trendTitle}
+              midText={trend.midText}
+              bottomText={trend.bottomText}
+            />
+          ))}
+          {trends.map((trend) => (
+            <TrendButton
+              trendTitle={trend.trendTitle}
+              midText={trend.midText}
+              bottomText={trend.bottomText}
+            />
+          ))}
 
           <button className="bottom-bar">Show More</button>
         </div>
         <div className="follow">
           <div className="follow-list-title">Who to follow</div>
-          <FollowButton User="Name" Username="@user 3456" />
-          <FollowButton User="Name" Username="@user 3456" />
-          <FollowButton User="Name" Username="@user 3456" />
+          {follows.map((follow) => (
+            <FollowButton user={follow.user} username={follow.username} />
+          ))}
+          {follows.map((follow) => (
+            <FollowButton user={follow.user} username={follow.username} />
+          ))}
+          {follows.map((follow) => (
+            <FollowButton user={follow.user} username={follow.username} />
+          ))}
           <button className="bottom-bar">Show More</button>
         </div>
         <div className="right-bottom">

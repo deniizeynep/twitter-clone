@@ -3,26 +3,75 @@ import TextTweet from "./TextTweet";
 import ImageTweet from "./ImageTweet";
 
 function TweetFlow() {
+  const [tweets, setTweets] = React.useState([
+    {
+      name: "Name",
+      username: "@user9382",
+      time: Date.now(),
+      text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et voluptatem ut ad consequatur, inventore assumenda autem fuga aperiam corporis placeat nihil sint, beatae excepturi odio nam suscipit! Cumque, architecto aliquid.",
+    },
+  ]);
   return (
     <>
       <div className="mid">
-        <TextTweet
-          User="Name"
-          Username="@user9382"
-          Time="32m"
-          TweetParagraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-          hic facere ipsam voluptatem nisi eius omnis iste recusandae optio
-          numquam."
-        />
-        <ImageTweet />
-        <TextTweet
-          User="Name"
-          Username="@user9382"
-          Time="32m"
-          TweetParagraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-          hic facere ipsam voluptatem nisi eius omnis iste recusandae optio
-          numquam."
-        />
+        {tweets.map((tweet) => (
+          <TextTweet
+            user={tweet.name}
+            username={tweet.username}
+            date={tweet.date}
+            text={tweet.text}
+          />
+        ))}
+
+        {tweets.map((tweet) => (
+          <ImageTweet
+            user={tweet.name}
+            username={tweet.username}
+            date={tweet.date}
+            text={tweet.text}
+          />
+        ))}
+        {tweets.map((tweet) => (
+          <TextTweet
+            user={tweet.name}
+            username={tweet.username}
+            date={tweet.date}
+            text={tweet.text}
+          />
+        ))}
+        {tweets.map((tweet) => (
+          <TextTweet
+            user={tweet.name}
+            username={tweet.username}
+            date={tweet.date}
+            text={tweet.text}
+          />
+        ))}
+        {tweets.map((tweet) => (
+          <TextTweet
+            user={tweet.name}
+            username={tweet.username}
+            date={tweet.date}
+            text={tweet.text}
+          />
+        ))}
+
+        {tweets.map((tweet) => (
+          <ImageTweet
+            user={tweet.name}
+            username={tweet.username}
+            date={tweet.date}
+            text={tweet.text}
+          />
+        ))}
+        {tweets.map((tweet) => (
+          <ImageTweet
+            user={tweet.name}
+            username={tweet.username}
+            date={tweet.date}
+            text={tweet.text}
+          />
+        ))}
       </div>
     </>
   );
