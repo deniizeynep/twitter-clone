@@ -1,10 +1,10 @@
 import React from "react";
-import "./index.css";
-import SidebarOptions from "./SidebarOptions";
-import Homebar from "./Homebar";
-import TweetBox from "./TweetBox";
-import TweetFlow from "./TweetFlow/TweetFlow";
-import Rightbar from "./Rightbar/Rightbar";
+import "./Homepage/index.css";
+import SidebarOptions from "./Homepage/SidebarOptions";
+import Homebar from "./Homepage/Homebar";
+import TweetBox from "./Homepage/TweetBox";
+import TweetFlow from "./Homepage/TweetFlow/TweetFlow";
+import Rightbar from "./Homepage/Rightbar/Rightbar";
 
 function App() {
   return (
