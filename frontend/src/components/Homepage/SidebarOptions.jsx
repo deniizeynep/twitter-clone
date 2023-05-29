@@ -18,7 +18,7 @@ import {
   fas,
 } from "@fortawesome/free-solid-svg-icons";
 
-function SidebarOption() {
+function SidebarOptions() {
   return (
     <div className="con">
       <div className="left-side">
@@ -105,4 +105,4 @@ function SidebarOption() {
 
 library.add(fas, faTwitter, faFontAwesome);
 
-export default SidebarOption;
+export default SidebarOptions;
