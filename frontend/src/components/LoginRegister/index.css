@@ -4,153 +4,46 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.pic{
-    font-size: 150px;
-    text-align: center;
-    color: #1DA1F2;
-    margin-left: 830px;
+.option{
+    grid-area: options;
+    border: 2px solid hwb(0 4% 95%);
 }
 
-.title2{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 280px;
+.flow{
+    grid-area: flow;
+    border: 2px solid hwb(0 4% 95%);
 }
 
-.textbox{
-    width: 600px;
-    height: 45px;
-    border-radius: 17px;
-    background-color:  rgb(233, 227, 227);
-    border: 1px solid black;
-    margin-top: 400px;
-    margin-left: -600px;
-    padding: 0;
-    font-size: 15px;
+.login{
+    grid-area: login;
+    border: 2px solid hwb(0 4% 95%);
 }
 
-.textbox2{
-    width: 600px;
-    height: 43px;
-    border-radius: 17px;
-    background-color:  rgb(233, 227, 227);
-    border: 1px solid black;
-    margin-top: 480px;
-    margin-left: -1310px;
-    padding: 0;
-    font-size: 15px;
+.container2{
+    display: grid;
+    grid-template-columns: 600px 600px 710px 710px;
+    grid-template-rows: 110px 15px 130px 15px;
+    grid-template-areas: 
+    "options flow login";
+    height: 100vh; 
 }
 
-.submit{
-    width: 610px;
-    height: 40px;    
-    border-radius: 24px;
+.icon-left{
+    font-size: 17px;
     color: white;
-    background-color:  #1DA1F2;
-    margin-left: 600px;
-    margin-top: 450px;
-}
-
-.submit2{
-    width: 800px;
-    height: 40px;    
+    background-color:  transparent;
+    border-style: none;
     border-radius: 24px;
-    color: white;
-    background-color:  #1DA1F2;
-    margin-left: -60px;
-    margin-top: 600px;
+    margin-left: 500px;
+
 }
 
-.password{
-    margin-top: 520px;
-    margin-left: 140px;
-    
-}
-
-.signup{
-    margin-top: 520px;
-    margin-left: -300px;
-}
-
-.box{
-    width: 400px;
-    height: 45px;
-    border-radius: 17px;
-    background-color:  rgb(233, 227, 227);
-    border: 1px solid black;
-    margin-top: 400px;
-    margin-left: -650px;
-    padding: 0;
-    font-size: 15px;
-}
-
-.box1{
-    width: 400px;
-    height: 45px;
-    border-radius: 17px;
-    background-color:  rgb(233, 227, 227);
-    border: 1px solid black;
-    margin-top: 520px;
-    margin-left: -1360px;
-    padding: 0;
-    font-size: 15px;
-}
-.box2{
-    width: 400px;
-    height: 45px;
-    border-radius: 17px;
-    background-color:  rgb(233, 227, 227);
-    border: 1px solid black;
-    margin-top: 350px;
-    margin-left: 550px;
-    padding: 0;
-    font-size: 15px;
-}
-
-.box3{
-    width: 400px;
-    height: 45px;
-    border-radius: 17px;
-    background-color:  rgb(233, 227, 227);
-    border: 1px solid black;
-    margin-top: 470px;
-    margin-left: -50px;
-    padding: 0;
-    font-size: 15px;
-}
-
-.date-title{
-    font-weight: bold;
-    font-size:20px;
-    margin-left: -190px;
-    margin-top: 290px;
-}
-
-.date{
-    background-color:  rgb(233, 227, 227);
-    border: 1px solid black;
-    width: 300px;
-    height: 45px;
-    margin-left: -900px;
-    margin-top: 330px;
-}
-
-.rules{
-    margin-top: 400px;
-    margin-left: 1010px;
-    width: 300px;
-    border: 1px solid #1DA1F2;
-}
-
-.link{
-    color: #1DA1F2;
-    
-}
-
-.bar{
+.twitter-icon2{
     font-size: 20px;
-    font-weight: bold;
-    margin-top: 400px;
-    margin-left: -590px;
+    color: white;
+    background-color:  transparent;
+    border-style: none;
+    border-radius: 24px;
+    margin-left: 500px;
+
 }
