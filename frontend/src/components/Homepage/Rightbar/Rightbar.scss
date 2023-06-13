@@ -1,0 +1,238 @@
+@import "variables";
+
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.con {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: 100vh;
+  }
+
+.right-side {
+    border: 2px solid hwb(0 4% 95%);
+    grid-area: right;
+    float: left;
+    width: 715px;
+    overflow-y: scroll;
+  }
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #14171a;
+    border-radius: 24px;
+    border: 1px solid #131516;
+    width: 330px;
+    margin-left: 30px;
+    margin-top: 5px;
+    height: 28px;
+  }
+  
+  .search-icon {
+    color: #657786;
+    margin-right: 15px;
+    margin-left: 10px;
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #14171a;
+    font-size: 16px;
+  }
+  
+  .trends {
+    color: white;
+    background-color: #14171a;
+    width: 330px;
+    height: 890px;
+    margin-left: 35px;
+    margin-top: 20px;
+    border: 2px solid #14171a;
+    border-radius: 15px;
+  }
+  
+  .trend-title {
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 30px;
+  }
+  
+  .trend-top {
+    color: gray;
+    margin-right: 200px;
+    margin-top: 5px;
+  }
+  
+  .trend-mid {
+    margin-right: 225px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  
+  .trend-bottom {
+    color: gray;
+    margin-right: 228px;
+    font-size: 13px;
+  }
+  
+  .trend-button {
+    display: block;
+    color: white;
+    background-color: #14171a;
+    border-style: none;
+    height: 80px;
+    width: 330px;
+  }
+  
+  .trend-button:hover {
+    opacity: 0.5;
+    transition-duration: 0.3s;
+    color: white;
+    background-color: rgb(20, 19, 19);
+    cursor: pointer;
+  }
+
+  .bottom-bar {
+    color: white;
+    background-color: #14171a;
+    border-style: none;
+    height: 50px;
+    width: 330px;
+    color: #1da1f2;
+    text-align: left;
+    border-radius: 15px;
+  }
+  
+  .bottom-bar:hover {
+    opacity: 0.4;
+    transition-duration: 0.3s;
+    color: #1da1f2;
+    background-color: rgb(20, 19, 19);
+    cursor: pointer;
+  }
+  
+  .symbol {
+    float: right;
+    margin-right: 5px;
+    margin-top: -40px;
+  }
+  
+  .follow {
+    color: white;
+    background-color: #14171a;
+    width: 330px;
+    height: 297px;
+    margin-left: 35px;
+    margin-top: 20px;
+    border: 2px solid #14171a;
+    border-radius: 15px;
+  }
+  
+  .follow-list-title {
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 30px;
+  }
+  
+  .follower-button {
+    display: block;
+    width: 330px;
+    height: 70px;
+    color: white;
+    background-color: #14171a;
+    border-style: none;
+  }
+  
+  .follower-button:hover {
+    opacity: 0.5;
+    transition-duration: 0.3s;
+    color: white;
+    background-color: rgb(20, 19, 19);
+    cursor: pointer;
+  }
+  
+  .follow-button {
+    color: black;
+    background-color: #ffff;
+    border-style: none;
+    border-radius: 24px;
+    float: right;
+    margin-top: -30px;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+  }
+  
+  .follow-button:hover {
+    opacity: 0.5;
+    transition-duration: 0.3s;
+    color: black;
+    background-color: #ffff;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+  
+  .profile-picture {
+    margin-right: 260px;
+    font-size: 45px;
+  }
+  
+  .follower-name {
+    margin-right: 150px;
+    margin-top: -43px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .follower {
+    color: gray;
+    margin-right: 130px;
+  }
+  
+  .right-bottom {
+    font-size: 15px;
+    color: rgb(100, 99, 99);
+    width: 340px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  
+  a {
+    color: rgb(100, 99, 99);
+    margin: 5px;
+    height: 59px;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .word {
+    margin-top: 5px;
+    color: rgb(100, 99, 99);
+
+  }

@@ -6,7 +6,7 @@ import "./index.css";
 function Login() {
   return (
     <>
-      <div className="pic">
+      <div className="pic3">
         <FontAwesomeIcon icon={faTwitter} />
       </div>
       <div className="title2">Login in to Twitter</div>

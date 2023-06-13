@@ -1,0 +1,137 @@
+
+*{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.con {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: 100vh;
+  }
+
+.left-side {
+    border: 2px solid hwb(0 4% 95%);
+    padding: 0;
+    height: 99vh;
+    grid-area: left;
+    float: right;
+    width: 600px;
+    overflow: hidden;
+  }
+
+  .con {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: 100vh;
+  }
+
+  .options {
+    float: right;
+    width: 280px;
+    margin: 10px;
+  }
+  
+  .twitter-icon {
+    margin: 13px;
+    padding: 0;
+    font-size: 30px;
+    line-height: unset;
+    color: white;
+    background-color: black;
+    border-style: none;
+    box-sizing: border-box;
+    margin-top: -7px;
+    margin-bottom: 7px;
+  }
+  
+  .icon {
+    margin: 11px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border-style: none;
+    box-sizing: border-box;
+  }
+  
+  .icon:hover {
+    color: white;
+    background-color: rgb(68, 61, 61);
+    opacity: 0.5;
+    border-radius: 30px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+  }
+
+  .tw-button {
+    color: white;
+    background-color: #1da1f2;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+  }
+  
+  .tw-button:hover {
+    opacity: 1.2;
+    color: white;
+    background-color: rgb(6, 110, 228);
+    transition-duration: 0.3s;
+    cursor: pointer;
+  }
+  
+  .profile {
+    float: right;
+    margin-top: 190px;
+  }
+  
+  .pp {
+    width: 270px;
+    float: right;
+    height: 65px;
+    color: white;
+    background-color: black;
+    border-style: none;
+  }
+  
+  .pp:hover {
+    border-radius: 35px;
+    opacity: 0.5;
+    transition-duration: 0.1s;
+    color: white;
+    background-color: rgb(20, 19, 19);
+    cursor: pointer;
+  }
+  
+  .pic {
+    float: left;
+    font-size: 30px;
+    margin-top: 12px;
+    padding: 5px;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin-top: 17px;
+    margin-right: 160px;
+    font-size: 14px;
+  }
+  
+  .username {
+    text-align: center;
+    color: gray;
+    margin-top: 3px;
+    margin-right: 130px;
+    font-size: 15px;
+  }
+  
+  .pic2 {
+    float: right;
+    font-size: 20px;
+    margin-top: -12px;
+  }

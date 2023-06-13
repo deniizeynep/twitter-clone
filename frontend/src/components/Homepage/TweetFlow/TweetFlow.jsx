@@ -13,7 +13,7 @@ function TweetFlow() {
   ]);
   return (
     <>
-      <div className="mid">
+      <div className="mid overflow-x">
         {tweets.map((tweet) => (
           <TextTweet
             user={tweet.name}
