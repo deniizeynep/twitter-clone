@@ -1,74 +1,71 @@
+@import "../../styles/variables";
 
-*{
-    background-color: black;
-    color: white;
-    margin: 0;
-    padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.mid {
-    border: 2px solid hwb(0 4% 95%);
-    grid-area: mid;
+body{
+  font-family: $font-system;
+  background-color: $color-black;
+  color: $color-light;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  .mid {
+    border: $border;
     height: 670px;
-  }
-  
-  .overflow-x {
+    grid-area: mid;
+    
+    .overflow-x {
     overflow-x: auto;
-  }
-  
-  .overflow-x::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .overflow-x {
     -ms-overflow-style: none; 
     scrollbar-width: none; 
+    
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
-
+  
+  
   .tweet {
-    border: 1px solid rgb(51, 48, 48);
+    border: $border-1px;
   }
   
   .user-pp {
+    color: $color-light;
+    background-color: transparent;
+    border-style: none;
     font-size: 50px;
     margin-top: 5px;
     margin-left: 10px;
-    border-style: none;
-    color: white;
-    background-color: transparent;
     cursor: pointer;
   }
   
   .user {
-    color: white;
+    color: $color-light;
     background-color: transparent;
     border-style: none;
-    cursor: pointer;
     font-size: 18px;
-    margin-left: 5px;
     position: relative;
     bottom: 22px;
-  }
-  
-  .user:hover {
-    text-decoration: underline;
+    margin-left: 5px;
+    cursor: pointer;
+    
+    &:hover {
+      text-decoration: underline;
+    }
   }
   
   .username-2 {
-    color: gray;
+    color: $color-gray;
     background-color: transparent;
     border-style: none;
-    cursor: pointer;
     font-size: 15px;
     position: relative;
     bottom: 23px;
     margin-left: -5px;
+    cursor: pointer;
   }
   
   .time {
-    color: gray;
+    color: $color-gray;
     float: right;
     position: relative;
     right: 320px;
@@ -77,12 +74,12 @@
   
   .more {
     float: right;
-    color: white;
+    color: $color-light,;
     background-color: transparent;
     border-style: none;
-    cursor: pointer;
     margin-top: 20px;
     margin-right: -5px;
+    cursor: pointer;
   }
   
   .paragraph {
@@ -91,32 +88,34 @@
   }
   
   .bottom-option {
-    color: white;
+    color: $color-light;
     background-color: transparent;
     border-style: none;
+    height: 60px;
     margin-left: 40px;
     margin-top: -20px;
-    height: 60px;
   }
   
   .icons {
-    color: white;
+    color: $color-light;
     background-color: transparent;
     border-style: none;
-    cursor: pointer;
-    margin: 35px;
     font-size: 15px;
-  }
-  
-  .icons:hover {
-    transition-duration: 0.2s;
-    opacity: 0.5;
-  }
+    margin: 35px;
+    cursor: pointer;
+    
+    &:hover {
+      transition-duration: 0.2s;
+      opacity: 0.5;
+    }
+  } 
   
   .picture {
+    border-radius: 20px;
     width: 300px;
     margin-left: 150px;
     margin-top: 5px;
-    border-radius: 20px;
   }
   
+  }
+}
