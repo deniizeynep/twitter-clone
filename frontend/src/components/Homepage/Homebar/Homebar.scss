@@ -1,13 +1,12 @@
-@import "variables";
+@import "../../styles/variables";
 
-*{
+body{
+  font-family: $font-system;
   background-color: $color-black;
   color: $color-light;
   margin: 0;
   padding: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
+  box-sizing: border-box;
 
 .container {
   display: grid;
@@ -25,32 +24,32 @@
 .top {
   grid-area: top;
   font-weight: bold;
+
+  .title {
+    margin-left: 20px;
+    margin-top: 15px;
+  
+  }
+
+  .homebar {
+    float: left;
+    width: 298px;
+    background-color: $color-black;
+    color: $color-light;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 9px 20px 8px;
+    min-height: 50px;
+  
+  &:hover {
+    color: $color-light;
+    background-color: darken($color-lightgray, 20%);
+    transition-duration: 0.3s;
+    cursor: pointer;
+      }
+    }
+  }
 }
 
-.title {
-  margin-left: 20px;
-  margin-top: 15px;
-
-}
-
-.homebar {
-  float: left;
-  width: 298px;
-  background-color: $color-black;
-  color: $color-light;
-  border-style: none;
-  box-sizing: border-box;
-  font-size: 16px;
-  font-weight: 600;
-  margin-top: 20px;
-  padding: 9px 20px 8px;
-  min-height: 50px;
-
-&:hover {
-  color: $color-light;
-  background-color: darken($color-lightgray, 20%);
-  transition-duration: 0.3s;
-  cursor: pointer;
-}
-
-}

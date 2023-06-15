@@ -1,0 +1,16 @@
+// colors
+$color-black: #000000;
+$color-light: #fff;
+$color-gray: #808080;
+$color-lightgray: rgb(78, 68, 68);
+$border-color: hwb(0 4% 95%);
+$twitter-blue: #1da1f2;
+$twitter-gray: #14171a;
+$hover-color: rgb(20, 19, 19);
+
+// border style
+$border: 2px solid $border-color;
+
+// font
+$font-system: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
