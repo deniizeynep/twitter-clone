@@ -1,9 +1,9 @@
 import React from "react";
 import { Route, Routes } from "react-router";
 import { HomePage } from "../pages/home";
-import Login from "../components/LoginRegister/Login";
-import Register from "../components/LoginRegister/Register";
-import ForgotPassword from "../components/LoginRegister/ForgotPassword";
+import Login from "../components/LoginRegister/Login Page/Login";
+import Register from "../components/LoginRegister/Register Page/Register";
+import ForgotPassword from "../components/LoginRegister/Forgot Password/ForgotPassword";
 
 export function MainRoutes() {
   return (

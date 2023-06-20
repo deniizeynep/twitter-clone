@@ -1,0 +1,113 @@
+@import "../../styles/variables";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-system;
+
+    .pic3 {
+      font-size: 150px;
+      text-align: center;
+      color: $twitter-blue;
+      margin-left: 830px;
+    }
+
+    .title2 {
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: 280px;
+    }
+ 
+
+      .box {
+      width: 400px;
+      height: 45px;
+      border-radius: 17px;
+      background-color: $text-box;
+      border: $border-classic;
+      margin-top: 400px;
+      margin-left: -650px;
+      padding: 0;
+      font-size: 15px;
+      
+      &-1 {
+      width: 400px;
+      height: 45px;
+      border-radius: 17px;
+      background-color: $text-box;
+      border: $border-classic;
+      margin-top: 520px;
+      margin-left: -1360px;
+      padding: 0;
+      font-size: 15px;
+    }
+    
+    &-2 {
+      width: 400px;
+      height: 45px;
+      border-radius: 17px;
+      background-color: $text-box;
+      border: $border-classic;
+      margin-top: 350px;
+      margin-left: 550px;
+      padding: 0;
+      font-size: 15px;
+    }
+    
+    &-3 {
+      width: 400px;
+      height: 45px;
+      border-radius: 17px;
+      background-color: $text-box;
+      border: $border-classic;
+      margin-top: 470px;
+      margin-left: -50px;
+      padding: 0;
+      font-size: 15px;
+    }
+  }
+    
+  
+    .date-title {
+      font-weight: bold;
+      font-size: 20px;
+      margin-left: -190px;
+      margin-top: 290px;
+    }
+
+    .date {
+      background-color: $text-box;
+      border: $border-classic;
+      width: 300px;
+      height: 45px;
+      margin-left: -900px;
+      margin-top: 330px;
+      border-radius: 15px;
+      padding: 3px 5px;
+      box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .rules {
+      margin-top: 400px;
+      margin-left: 1010px;
+      width: 300px;
+      border: 1px solid $twitter-blue;
+    }
+
+    .link {
+      color: $twitter-blue;
+    }
+
+    .submit2 {
+      width: 800px;
+      height: 40px;
+      border-radius: 24px;
+      color: $color-light;
+      background-color: $twitter-blue;
+      margin-left: -60px;
+      margin-top: 600px;
+    }
+  }
+
+  

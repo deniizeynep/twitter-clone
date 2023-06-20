@@ -1,0 +1,70 @@
+@import "../../styles/variables";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-system; 
+
+    .pic3 {
+      font-size: 150px;
+      text-align: center;
+      color: $twitter-blue;
+      margin-left: 830px;
+    }
+
+    .title2 {
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: 280px;
+    }
+
+    .textbox {
+      width: 600px;
+      height: 45px;
+      border-radius: 17px;
+      background-color: $text-box;
+      border: 1px solid $color-black;
+      margin-top: 400px;
+      margin-left: -600px;
+      padding: 0;
+      font-size: 15px;
+    }
+    
+    .textbox2 {
+      width: 600px;
+      height: 43px;
+      border-radius: 17px;
+      background-color: $text-box;
+      border: 1px solid $color-black;
+      margin-top: 480px;
+      margin-left: -1310px;
+      padding: 0;
+      font-size: 15px;
+    }
+    
+    .submit {
+      width: 610px;
+      height: 40px;
+      border-radius: 24px;
+      color: $color-light;
+      background-color: $twitter-blue;
+      margin-left: 600px;
+      margin-top: 450px;
+    }
+
+    .password {
+      color: $color-light;
+      margin-top: 520px;
+      margin-left: 140px;
+    }
+    
+    .signup {
+      color: $color-light;
+      margin-top: 520px;
+      margin-left: -300px;
+    }
+
+
+
+  }

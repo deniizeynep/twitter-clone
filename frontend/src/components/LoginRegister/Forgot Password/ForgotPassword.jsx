@@ -2,10 +2,12 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
+import "./ForgotPassword.scss";
+
 function ForgotPassword() {
   return (
     <>
-      <div className="pic">
+      <div className="pic3">
         <FontAwesomeIcon icon={faTwitter} />
       </div>
       <div className="title2">Forgot Password?</div>
