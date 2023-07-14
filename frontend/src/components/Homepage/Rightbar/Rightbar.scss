@@ -202,7 +202,7 @@ body{
       height: 30px;
       
       &:hover {
-        background-color: lighten($color-lightgray, 10%);
+        background-color: lighten($color-darkgray, 10%);
         transition-duration: 0.3s;
         color: $color-black;
         border-radius: 24px;
@@ -213,7 +213,7 @@ body{
   
   .right-bottom {
     font-size: 15px;
-    color:$color-lightgray;
+    color:$color-darkgray;
     width: 340px;
     height: 100px;
     margin-left: 40px;

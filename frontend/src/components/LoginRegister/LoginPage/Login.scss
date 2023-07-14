@@ -1,0 +1,121 @@
+@import "../../styles/variables";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: $font-system;
+    
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: $overlay;
+}
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: $color-black;
+    color: $lightgray;
+    padding: 14px 28px;
+    border-radius: 20px;
+    width: 550px;
+    height: 650px;
+}
+.close{
+    background-color: $color-black;
+    color: $color-light;
+    font-size: 15px;
+    border-style: none;
+    position: relative;
+    bottom: 10px;
+    border: $border-classic;
+
+    &:hover{
+        border-radius: 20px;
+        background-color: darken($color-darkgray, 1%);
+    }
+}
+
+.login-icon{
+    font-size: 30px;
+    margin-left: 240px;
+    margin-top: 10px;
+}
+
+.login-title{
+    text-align: center;
+    font-size: 32px;
+    margin-right: 60px;
+}
+
+.login-textbox{
+    background-color: $color-black;
+    color: $color-light;
+    font-size: 15px;
+    border-style: none;
+    border: 1px solid $color-darkgray;
+    border-radius: 5px;
+    width: 280px;
+    height: 40px;
+    padding: 5px;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+.next-modal{
+    font-weight: bold;
+    font-size: 17px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+
+    &:hover{
+        background-color: lighten($color-light, 5%);
+    }
+}
+
+.forgot-modal{
+    background-color: $color-black;
+    color: $color-light;
+    font-weight: bold;
+    font-size: 17px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    border: 1px solid $color-gray;
+
+    &:hover{
+        background-color: lighten($color-black, 5%);
+    }
+}
+
+.sign-up-link{
+    color: $color-gray;
+    position: relative;
+    top: 120px;
+    left: 110px;
+    .link{
+        text-decoration: none;
+        color: $twitter-blue;
+    }
+}
+}

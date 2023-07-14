@@ -2,7 +2,7 @@
 $color-black: #000000;
 $color-light: #fff;
 $color-gray: #808080;
-$color-lightgray: rgb(78, 68, 68);
+$color-darkgray: rgb(78, 68, 68);
 $border-color: hwb(0 4% 95%);
 $twitter-blue: #1da1f2;
 $twitter-gray: #14171a;
@@ -10,6 +10,7 @@ $hover-color: rgb(20, 19, 19);
 $hover-blue:  #009dff;
 $text-box: rgb(233, 227, 227);
 $lightgray: rgb(202, 192, 192);
+$overlay: rgba(87, 87, 87, 0.377);
 
 
 // border style
@@ -22,6 +23,6 @@ $font-system: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
 //opacity
-$darken: darken($color-lightgray, 20%);
+$darken: darken($color-darkgray, 20%);
 $lighten: lighten($twitter-gray, 5%);
 $twitter-back: lighten($hover-blue, 5%)
