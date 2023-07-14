@@ -12,17 +12,17 @@ body{
     border: $border;
     height: 670px;
     grid-area: mid;
+    overflow: scroll;
     
     .overflow-x {
     overflow-x: auto;
     -ms-overflow-style: none; 
     scrollbar-width: none; 
-    
-    &::-webkit-scrollbar {
+    }
+
+    .overflow-x::-webkit-scrollbar {
       display: none;
     }
-  }
-  
   
   .tweet {
     border: $border-1px;

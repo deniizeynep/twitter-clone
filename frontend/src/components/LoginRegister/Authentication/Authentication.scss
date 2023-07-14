@@ -1,0 +1,89 @@
+@import "../../styles/variables";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: $font-system;
+
+    .group{
+    width: 500px;
+    margin-left: 480px;
+    margin-top: 85px;
+
+    .tw-icon{
+        color: $lightgray;
+        font-size: 45px;
+        
+
+    }
+
+    .baslik{
+        color: $lightgray;
+        font-size: 65px;
+    }
+
+    .baslik-2{
+        color: $lightgray;
+        font-size: 35px;
+    }
+
+    .create-button{
+        background-color: $twitter-blue;
+        color: $color-light;
+        width: 300px;
+        height: 40px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-right: 200px;
+        border-style: none;
+        border-radius: 20px;
+        
+        &:hover{
+            background-color: $twitter-back;
+        }
+    }
+
+    .cookie{
+        font-size: 12px;
+        color: $color-gray;
+        width: 300px;
+        .link{
+            text-decoration: none;
+        }
+    }
+
+    .signup-title{
+        font-size: 20px;
+        margin-top: 150px;
+        color: $lightgray;
+    }
+
+    .sign-in-button{
+        background-color: $color-black;
+        color: $twitter-blue;
+        width: 300px;
+        height: 40px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-right: 200px;
+        border: 1px solid $color-gray;
+        border-radius: 20px;
+    } 
+    }
+
+    .links{
+        width: 1700px;
+        margin-top: 900px;
+        font-size: 13px;
+        margin-left: -1080px;
+        
+        .link-2{
+        color: $color-gray;
+        text-decoration: none;
+        padding: 8px;
+
+    }
+}
+
+    
+}
