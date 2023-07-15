@@ -1,0 +1,37 @@
+@import "../../styles/variables";
+
+.btn{
+        font-weight: bold;
+        font-size: 17px;
+        width: 300px;
+        height: 40px;
+        border-radius: 20px;
+        border-style: none;
+ 
+    &.btn-primary {
+        background-color: $twitter-blue;
+        color: $color-light;
+        &:hover{
+            background-color: lighten($color-light, 5%);
+        }
+    }
+
+    &.btn-secondary{
+        background-color: $color-light;
+        color: $color-black;
+        &:hover{
+        background-color: lighten($color-light, 5%);
+}
+    }
+    
+    &.btn-dark{
+        background-color: $color-black;
+        color: $color-light;
+        border: 1px solid $color-light;
+        margin-top: 30px;
+        &:hover{
+            background-color: lighten($color-black, 5%);
+        }
+    }
+        
+}
