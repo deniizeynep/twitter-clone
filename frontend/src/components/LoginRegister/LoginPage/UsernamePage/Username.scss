@@ -1,0 +1,24 @@
+@import "../../../styles/variables";
+
+.login-title{
+    text-align: center;
+    font-size: 32px;
+    margin-right: 60px;
+}
+
+.sign-up-link{
+    color: $color-gray;
+    position: relative;
+    top: 140px;
+    left: 120px;
+    .link{
+        text-decoration: none;
+        color: $twitter-blue;
+    }
+}
+
+.buttons{
+    position: relative;
+    left: 110px;
+    top: 30px;
+}
