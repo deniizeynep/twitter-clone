@@ -1,0 +1,26 @@
+@import "../../styles/variables";
+
+.textbox{
+    background-color: $color-black;
+    color: $color-light;
+    font-size: 15px;
+    border-style: none;
+    border: 1px solid $color-darkgray;
+    border-radius: 5px;
+    padding: 5px;
+
+
+&.primary-text{
+    width: 280px;
+    height: 40px;
+    margin-left: 110px;
+    margin-top: 90px;
+}
+
+&.secondary-text{
+
+}
+
+
+    
+}
