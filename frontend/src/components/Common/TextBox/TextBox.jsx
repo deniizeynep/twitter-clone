@@ -4,9 +4,10 @@ import "./TextBox.scss";
 
 const TextBox = ({
   onClick,
-  typ = "primary-text secondary-text",
+  typ = "primary-text secondary-text danger=text",
   placeHolder,
   type,
+  disabled,
 }) => {
   return (
     <>
@@ -15,6 +16,7 @@ const TextBox = ({
         placeholder={placeHolder}
         className={`textbox ${typ}`}
         onClick={onClick}
+        disabled={disabled}
       />
     </>
   );

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 import MultipleLoginForm from "./UsernamePage/Username";
+import LoginForm from "./PasswordPage/Password";
 
 import "./Login.scss";
 
@@ -10,7 +11,10 @@ function Login() {
   const [modal, setModal] = useState(false);
   const [step, setStep] = useState("multipleLogin");
 
-  const toggleModal = () => setModal((prev) => !prev);
+  const toggleModal = () => {
+    setModal((prev) => !prev);
+    setStep("multipleLogin");
+  };
 
   const nextStep = () => setStep("login");
 
@@ -44,9 +48,7 @@ function Login() {
   );
 }
 
-function LoginForm() {
-  return <>Login</>;
-}
+<LoginForm />;
 
 <MultipleLoginForm />;
 

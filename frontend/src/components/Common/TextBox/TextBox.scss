@@ -18,9 +18,20 @@
 }
 
 &.secondary-text{
-
+    background-color: rgb(10, 9, 9);
+    width: 80%;
+    height: 50px;
+    position: relative;
+    left: 40px;
 }
 
+&.danger-text{
+    width: 80%;
+    height: 50px;
+    position: relative;
+    left: 40px;
+    margin-top: 20px;
+}
 
     
 }

@@ -34,5 +34,14 @@
             background-color: lighten($color-black, 5%);
         }
     }
+
+    &.btn-light{
+        width:  83%;
+        height: 50px;
+        position: relative;
+        left: 38px;
+        top: 270px;
+        border-radius: 30px;
+    }
         
 }
